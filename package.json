@@ -1,0 +1,28 @@
+{
+  "name": "preco-camarada-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test:staged": "jest"
+  },
+  "author": "Carlos Eduardo Alves de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-glob": "^3.2.5",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "nodemon": "^2.0.7",
+    "standard": "^16.0.3"
+  }
+}
